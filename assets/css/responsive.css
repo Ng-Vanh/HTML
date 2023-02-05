@@ -1,0 +1,49 @@
+/* PC */
+@media(min-width: 1024x)
+{
+
+}
+/* tablet */
+@media(min-width: 740px) and (max-width:1023px)
+{
+
+}
+
+/* Mobile */
+@media(max-width: 740px)
+{
+    #nav{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subNav{
+        position: initial;
+        background-color: #333;
+        color: #fff;
+    }
+    #nav .subNav a{
+        padding: 5px 41px;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-button{
+        display: none;
+    }
+    .col-third{
+        width: 100%;
+    }
+    
+    
+}
