@@ -164,7 +164,7 @@ Nguyen tac lam: lam tu ngoai vao trong,
     margin-top: 46px;
     padding-top: 50%; /* dongf này để khi phóng to thu nhỏ page 
                         thì tỉ lệ ảnh ko đổi */
-    background: url('https://www.w3schools.com/w3images/chicago.jpg') top center / cover no-repeat;
+    background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
 }
 #slider .text-content{
     /* position: absolute; */
@@ -251,7 +251,7 @@ Nguyen tac lam: lam tu ngoai vao trong,
 
 .ticket-list{
     margin-top: 40px;
-    background-color: #fff;
+    background-color: #1ac4d7ec;
     color: #757575;
     list-style-type: none;
 }
